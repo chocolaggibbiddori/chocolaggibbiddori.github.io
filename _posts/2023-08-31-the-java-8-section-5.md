@@ -93,4 +93,4 @@ ___
 **[참고]**  
 백기선, inflearn 강의 ['더 자바, Java 8'](https://www.inflearn.com/course/the-java-java8/dashboard)  
 
-[<== section 4](/the-java-8-section-4)
+[<== section 4](/the-java-8-section-4) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [section 6 ==>](/the-java-8-section-6)
