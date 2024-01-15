@@ -59,27 +59,27 @@ tag: [bootcamp, miniproject]
 
 - 게시판
 
-![board](./../images/bestboard/게시판.png)
+![board](../../../images/bestboard/게시판.png)
 
 - 회원 가입
 
-![join](./../images/bestboard/회원%20가입.png)
+![join](../../../images/bestboard/회원%20가입.png)
 
 - 게시글 작성
 
-![write](./../images/bestboard/게시글%20작성.png)
+![write](../../../images/bestboard/게시글%20작성.png)
 
 - 게시글 조회
 
-![detail](./../images/bestboard/게시글%20조회.png)
+![detail](../../../images/bestboard/게시글%20조회.png)
 
 - 게시글 수정
 
-![modify](./../images/bestboard/게시글%20수정.png)
+![modify](../../../images/bestboard/게시글%20수정.png)
 
 - 관리자 페이지
 
-![admin](./../images/bestboard/관리자%20페이지.png)
+![admin](../../../images/bestboard/관리자%20페이지.png)
 
 <br>
 

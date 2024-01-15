@@ -42,7 +42,7 @@ tag: [bootcamp, miniproject]
 
 > 역할 분담
 
-![업무분담1](../images/shoppingmall/업무분담1.png)
+![업무분담1](../../../images/shoppingmall/업무분담1.png)
 
 - 임제정
 
@@ -55,7 +55,7 @@ tag: [bootcamp, miniproject]
 1. AdminProductController
 2. AdminQnaController
 
-![업무분담2](../images/shoppingmall/업무분담2.png)
+![업무분담2](../../../images/shoppingmall/업무분담2.png)
 
 - 강동희
 
@@ -88,7 +88,7 @@ tag: [bootcamp, miniproject]
 
 > service 패키지 생성
 
-![service 패키지](../images/shoppingmall/service%20패키지.png)
+![service 패키지](../../../images/shoppingmall/service%20패키지.png)
 
 ```java
 /**
@@ -170,13 +170,13 @@ public class MemberController extends HttpServlet {
 
 |               리팩토링 전               |리팩토링 후|
 |:----------------------------------:|:---:|
-|![리팩토링 전](../images/shoppingmall/리팩토링%20전.png)|![리팩토링 후](../images/shoppingmall/리팩토링%20후.png)|
+|![리팩토링 전](../../../images/shoppingmall/리팩토링%20전.png)|![리팩토링 후](../../../images/shoppingmall/리팩토링%20후.png)|
 
 > 메서드 추출
 
 |                   리팩토링 전                   |                  리팩토링 후                  |
 |:------------------------------------------:|:----------------------------------------:|
-| ![메서드 추출 전](../images/shoppingmall/메서드%20추출%20전.png) | ![리팩토링 후](../images/shoppingmall/메서드%20추출%20후.png) |
+| ![메서드 추출 전](../../../images/shoppingmall/메서드%20추출%20전.png) | ![리팩토링 후](../../../images/shoppingmall/메서드%20추출%20후.png) |
 
 <br>
 
@@ -184,6 +184,6 @@ public class MemberController extends HttpServlet {
 
 > 로그 남기기
 
-![로그](../images/shoppingmall/로그.png)
+![로그](../../../images/shoppingmall/로그.png)
 
 [<== 부트캠프 28일차](/bootcamp-day28) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [부트캠프 35일차 ==>](/bootcamp-day35)

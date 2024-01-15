@@ -89,13 +89,13 @@ tag: [bootcamp, miniproject]
 
 ## 결과
 
-![init](/images/kktalk/초기 화면.png)
+![init](/images/kktalk/초기%20화면.png)
 
-![login-fail](/images/kktalk/로그인 실패.png)
+![login-fail](/images/kktalk/로그인%20실패.png)
 
-![login-success](/images/kktalk/로그인 성공.png)
+![login-success](/images/kktalk/로그인%20성공.png)
 
-![friends](/images/kktalk/친구 리스트 화면.png)
+![friends](/images/kktalk/친구%20리스트%20화면.png)
 
 ### 느낀 점
 

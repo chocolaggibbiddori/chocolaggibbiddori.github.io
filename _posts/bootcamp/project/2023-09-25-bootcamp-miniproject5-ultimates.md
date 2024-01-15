@@ -40,7 +40,7 @@ tag: [bootcamp, miniproject]
 
 ## 프로젝트 진행 방식
 
-![프로젝트 구조](../images/ultimates/프로젝트%20구조.png)
+![프로젝트 구조](../../../images/ultimates/프로젝트%20구조.png)
 
 <br>
 
@@ -345,9 +345,9 @@ public int getChampPlayCount(String champName) {
 }
 ```
 
-![예외 처리](../images/ultimates/예외처리%20클래스%20구조.png)
+![예외 처리](../../../images/ultimates/예외처리%20클래스%20구조.png)
 
-![예외 페이지](../images/ultimates/예외%20페이지.png)
+![예외 페이지](../../../images/ultimates/예외%20페이지.png)
 
 ___
 

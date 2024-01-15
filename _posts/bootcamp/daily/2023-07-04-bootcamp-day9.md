@@ -220,7 +220,7 @@ output
 
 해당 번호를 입력하면 각 메뉴에 알맞는 작업이 수행되게 하는 것이다. DB의 employee 테이블에는 다음과 같이 데이터가 저장되어 있다.
 
-![DB init](/images/day9/DB init.png)
+![DB init](/images/day9/DB%20init.png)
 
 ### Main.class
 
