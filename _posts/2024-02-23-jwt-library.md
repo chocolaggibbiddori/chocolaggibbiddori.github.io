@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "JWT - 라이브러리 사용법(기초)"
-tag: java, jwt, library
+tag: [java, jwt, library]
 ---
 
 # Java에서 JWT 라이브러리 사용하는 방법
