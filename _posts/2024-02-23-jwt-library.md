@@ -82,7 +82,6 @@ dependencies {
 &nbsp;&nbsp; 해당 라이브러리의 상세한 사용 방법은 [링크](https://github.com/jwtk/jjwt)에 접속하여 확인할 수 있다.
 이 포스팅에서는 간단한 부분만 추출해서, 내가 사용했던 기능 위주로 정리하겠다.
 
-
 ### Example Code:
 ```
 Jwts.builder()
@@ -107,8 +106,8 @@ Jwts.builder()
 
 - header(): HeaderBuilder - 토큰 헤더 객체를 생성하기 위한 메서드 (헤더 객체만 먼저 만들어놓고 추후에 조립하는 용도인 듯)
 - claims(): ClaimsBuilder - 토큰 클레임 객체를 생성하기 위한 메서드 (클레임 객체만 먼저 만들어놓고 추후에 조립하는 용도인 듯)
-- builder(): [JwtBuilder](#Jwtbuilder-인터페이스) - 토큰을 생성하기 위한 메서드
-- parser(): [JwtParserBuilder](#JwtParserBuilder-인터페이스) - 토큰 검증, 파싱을 담당하는 `JwtParser` 객체를 만들기 위한 메서드
+- builder(): [JwtBuilder](#jwtbuilder-인터페이스) - 토큰을 생성하기 위한 메서드
+- parser(): [JwtParserBuilder](#jwtparserbuilder-인터페이스) - 토큰 검증, 파싱을 담당하는 `JwtParser` 객체를 만들기 위한 메서드
 
 ### 토큰 생성
 
@@ -154,7 +153,7 @@ Jwts.builder()
 
 &nbsp;&nbsp; 기본적으로 `BuilderHeader` 인터페이스와 유사하다. 등록 클레임에 대해서는 앞서 설명한 메서드들(ex. `issuer()`, `subject()`)과 동일하며,
 임의 클레임 추가를 `add(String, Object)` 메서드로 하는 차이밖에 없다.  
-&nbsp;&nbsp; 이 인터페이스를 사용하게 되면, [위 예시](#Example-Code)처럼 Header와 Claim을 구분해서 설정할 수 있는 장점이 있다. (코드가 깔끔해진다!)
+&nbsp;&nbsp; 이 인터페이스를 사용하게 되면, [위 예시](#example-code)처럼 Header와 Claim을 구분해서 설정할 수 있는 장점이 있다. (코드가 깔끔해진다!)
 
 - issuer(String): BuilderClaims - iss 설정
 - subject(String): BuilderClaims - sub 설정
