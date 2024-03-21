@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Security v6.2.2"
+title: "Spring Security 시작하기"
 tag: spring security
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Spring Security v6.2.2 비밀번호 암호화"
+title: "Spring Security 비밀번호 암호화"
 tag: spring security
 ---
 
