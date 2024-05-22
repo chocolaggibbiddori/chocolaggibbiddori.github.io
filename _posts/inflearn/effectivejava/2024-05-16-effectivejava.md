@@ -17,3 +17,4 @@ tag: [inflearn, java]
 1. [Item 1. 생성자 대신 정적 팩토리 메서드를 고려하라](/item1)
 2. [Item 2. 생성자에 매개변수가 많다면 빌더를 고려하라](/item2)
 3. [Item 3. private 생성자나 열거 타입으로 싱글톤임을 보증하라](/item3)
+4. [Item 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](/item4)
