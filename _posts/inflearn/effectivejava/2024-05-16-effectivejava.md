@@ -21,3 +21,4 @@ tag: [inflearn, java]
 5. [Item 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](/item5)
 6. [Item 6. 불필요한 객체 생성을 피하라](/item6)
 7. [Item 7. 다 쓴 객체 참조를 해제하라](/item7)
+8. [Item 8. finalizer와 cleaner 사용을 피하라](/item8)
