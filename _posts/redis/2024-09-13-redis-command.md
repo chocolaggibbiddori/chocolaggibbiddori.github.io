@@ -22,7 +22,9 @@ tag: redis
 
 ### KEYS
 
-> KEYS [pattern]
+```
+KEYS [pattern]
+```
 
 - Content: 키 목록 확인
 - Args
@@ -45,7 +47,9 @@ tag: redis
 
 ### EXISTS
 
-> EXISTS key [keys ...]
+```
+EXISTS key [keys ...]
+```
 
 - Content: 키 존재 여부 확인
 - Args
@@ -59,7 +63,9 @@ tag: redis
 
 ### TYPE
 
-> TYPE key
+```
+TYPE key
+```
 
 - Content: 해당 키의 타입 체크
 - Args
@@ -70,7 +76,9 @@ tag: redis
 
 ### DEL
 
-> DEL key [keys ...]
+```
+DEL key [keys ...]
+```
 
 - Content: 키 삭제
 - Args
@@ -84,7 +92,9 @@ tag: redis
 
 ### SET
 
-> SET key value [NX | XX] [GET] [EX seconds | PX milliseconds | EXAT unix-time-seconds | PXAT unix-time-milliseconds | KEEPTTL]
+```
+SET key value [NX | XX] [GET] [EX seconds | PX milliseconds | EXAT unix-time-seconds | PXAT unix-time-milliseconds | KEEPTTL]
+```
 
 - Content: 값 저장
 - Args
@@ -108,7 +118,9 @@ tag: redis
 
 ### GET
 
-> GET key
+```
+GET key
+```
 
 - Content: 값 조회
 - Args
@@ -121,7 +133,9 @@ tag: redis
 
 ### MSET
 
-> MSET key value [key value ...]
+```
+MSET key value [key value ...]
+```
 
 - Content: 여러 값 저장
 - Args
@@ -133,7 +147,9 @@ tag: redis
 
 ### MSETNX
 
-> MSETNX key value [key value ...]
+```
+MSETNX key value [key value ...]
+```
 
 - Content: 여러 값 저장. 모든 키가 존재하지 않아야 모두 저장됨. 즉, 하나라도 존재할 경우 모두 저장되지 않음
 - Args
@@ -147,7 +163,9 @@ tag: redis
 
 ### MGET
 
-> MGET key [key ...]
+```
+MGET key [key ...]
+```
 
 - Content: 여러 값 조회
 - Args
@@ -158,7 +176,9 @@ tag: redis
 
 ### APPEND
 
-> APPEND key value
+```
+APPEND key value
+```
 
 - Content: 기존 값 뒤에 값 추가
 - Args
@@ -170,7 +190,9 @@ tag: redis
 
 ### STRLEN
 
-> STRLEN key
+```
+STRLEN key
+```
 
 - Content: 값의 길이 조회
 - Args
@@ -181,7 +203,9 @@ tag: redis
 
 ### SETRANGE
 
-> SETRANGE key offset value
+```
+SETRANGE key offset value
+```
 
 - Content: 값 부분 덮어쓰기
 - Args
@@ -194,7 +218,9 @@ tag: redis
 
 ### GETRANGE
 
-> GETRANGE key start end
+```
+GETRANGE key start end
+```
 
 - Content: 값 부분 조회
 - Args
@@ -207,7 +233,9 @@ tag: redis
 
 ### INCR
 
-> INCR key
+```
+INCR key
+```
 
 - Content: 값 1 증가
 - Args
@@ -218,7 +246,9 @@ tag: redis
 
 ### INCRBY
 
-> INCRBY key increment
+```
+INCRBY key increment
+```
 
 - Content: 값 증가
 - Args
@@ -230,7 +260,9 @@ tag: redis
 
 ### INCRBYFLOAT
 
-> INCRFLOAT key increment
+```
+INCRFLOAT key increment
+```
 
 - Content: 값 증가
 - Args
@@ -242,7 +274,9 @@ tag: redis
 
 ### DECR
 
-> DECR key
+```
+DECR key
+```
 
 - Content: 값 1 감소
 - Args
@@ -253,7 +287,9 @@ tag: redis
 
 ### DECRBY
 
-> DECRBY key decrement
+```
+DECRBY key decrement
+```
 
 - Content: 값 감소
 - Args
@@ -265,7 +301,9 @@ tag: redis
 
 ### GETDEL
 
-> GETDEL key
+```
+GETDEL key
+```
 
 - Content: 값 조회 후 삭제
 - Args
