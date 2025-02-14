@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "HPC - 회고(1주차)"
-tag: 
+tag: entec
 ---
 
 # Project: HPC CUP2
