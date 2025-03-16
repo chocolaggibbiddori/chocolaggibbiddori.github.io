@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "CUP2 - 회고(3주차)"
+title: "ENTEC - 회고(3주차)"
 tag: entec
 ---
 
-# Project: HPC, DS Cloud 통합 차세대 Portal 구축
+# 회고
 
 ## 작업
 - apache poi 라이브러리를 이용해 excel 파일 다운로드 기능 개발

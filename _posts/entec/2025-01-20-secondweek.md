@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "CUP2 - 회고(2주차)"
+title: "ENTEC - 회고(2주차)"
 tag: entec
 ---
 
-# Project: HPC, DS Cloud 통합 차세대 Portal 구축
+# 회고
 
 &nbsp;&nbsp; 프로젝트 이름 알아왔다.
 
